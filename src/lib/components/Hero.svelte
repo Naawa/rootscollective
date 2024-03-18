@@ -4,7 +4,7 @@
             <h1>Unity through</h1>
             <h1>Asian Pop Culture</h1>
         </span>
-        <p>Spark new connections by celebrating Asian Pop Culture and empowering <br> Asian minoroties and local businesses.</p>
+        <p>Spark new connections by celebrating Asian Pop Culture and empowering Asian minoroties and local businesses.</p>
     </div>
     <button>Join Our Next Event</button>
     <svg width="581" height="607" viewBox="-2 -2 581 607" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,12 @@
 
             p {
                 background-color: transparent;
+                max-width: 30em;
             }
+        }
+        
+        button {
+            z-index: 3;
         }
 
         svg {
@@ -87,8 +92,10 @@
         }
     }
 
-    @media (width < 1600px) {
+    @media (width < 800px) {
         section {
+            padding: 4em 1em;
+
             svg {
                 left: 40vw;
 

@@ -23,4 +23,10 @@
             }
         }
     }
+
+    @media (width < 800px) {
+        nav {
+            padding: 0 1em;
+        }
+    }
 </style>

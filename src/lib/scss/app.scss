@@ -8,7 +8,7 @@
     outline: none;
     margin: 0;
     padding: 0;
-    font-size: clamp(10px, 2dvw, 2dvh);
+    font-size: clamp(16px, 2vh, 2vh);
     font-family: "Montserrat";
     font-weight: 600;
     line-height: 1.4;
@@ -34,16 +34,28 @@ html {
             font-family: "Aleo", sans-serif;
         }
 
-        html {font-size: 100%;} /* 16px */
-        h1 {font-size: 3.366rem; /* 53.92px */}
-        h2 {font-size: 2.525rem; /* 40.32px */}
-        h3 {font-size: 1.894rem; /* 30.24px */}
-        h4 {font-size: 1.421rem; /* 22.72px */}
-        h5 {font-size: 1.066rem; /* 17.12px */}
-        small {font-size: 0.600rem; /* 9.6px */}
+        h1 {font-size: 2.442rem; /* 39.04px */}
+        h2 {font-size: 1.954rem; /* 31.2px */}
+        h3 {font-size: 1.563rem; /* 24.96px */}
+        h4 {font-size: 1.250rem; /* 20px */}
+        h5 {font-size: 1.000rem; /* 16px */}
+        small {font-size: 0.640rem; /* 10.24px */}
 
         b {
             font-weight: 700;
+        }
+    }
+}
+
+@media (width < 1200px) {
+    html {
+        body {
+            h1 {font-size: 1.441rem; /* 23.04px */}
+            h2 {font-size: 1.281rem; /* 20.48px */}
+            h3 {font-size: 1.139rem; /* 18.24px */}
+            h4 {font-size: 1.012rem; /* 16.16px */}
+            h5 {font-size: 0.900rem; /* 14.4px */}
+            small {font-size: 0.711rem; /* 11.36px */}
         }
     }
 }
