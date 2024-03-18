@@ -67,7 +67,7 @@
         align-items: center;
         gap: 2em;
         padding: 4em 2em; 
-        
+
         h3 {
             text-align: center;
         }
@@ -78,6 +78,8 @@
             flex-wrap: wrap;
             gap: 2em;
             width: 100%;
+            min-width: 200px;
+
             
             div {
                 display: flex;
@@ -85,7 +87,6 @@
                 padding: 2em;
                 background-color: #fdf1ea;
                 border-radius: 1em;
-                min-width: 200px;
                 flex: 0%;
 
 
