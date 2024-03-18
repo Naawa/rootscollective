@@ -1,5 +1,5 @@
 <nav>
-    <a href="/">Roots <br> Collective</a>
+    <a href="/"><img src="/assets/Logo.png" alt="Logo"></a>
     <a href="/about">About Us</a>
 </nav>
 
@@ -12,10 +12,16 @@
         width: 100%;
         padding: 0 15vw;
         margin: auto;
+        overflow: hidden;
 
         a {
             line-height: 1;
             font-weight: 700;
+
+            img {
+                scale: 1.2;
+                max-width: 40vw;
+            }
 
             &:last-of-type {
                 font-family: "Montserrat";

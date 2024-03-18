@@ -28,10 +28,14 @@ html {
         width: clamp(250px, 100%, 100dvw);
         height: 100%;
 
+        p, li, ul {
+            background-color: transparent;
+        }
+
         h1, h2, h3, h4, h5 {
             line-height: 1.2;
             font-weight: 700;
-            font-family: "Aleo", sans-serif;
+            background-color: transparent;
         }
 
         h1 {font-size: 2.442rem; /* 39.04px */}

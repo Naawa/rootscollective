@@ -31,6 +31,7 @@
         background-color: #fdf1ea;
         position: relative;
         overflow: hidden;
+        margin: 0 0 1em;
 
         div {
             display: flex;
@@ -44,6 +45,7 @@
                 h1 {
                     background-color: transparent;
                     font-weight: 500;
+                    font-family: "Aleo", sans-serif;
                     
                     &:last-of-type {
                         background-color: #f38c51;
