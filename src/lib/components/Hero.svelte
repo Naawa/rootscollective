@@ -1,6 +1,9 @@
 <section>
     <div>
-        <h1>Unity through <br><h1>Asian Pop Culture</h1></h1>
+        <span>
+            <h1>Unity through</h1>
+            <h1>Asian Pop Culture</h1>
+        </span>
         <p>Spark new connections by celebrating Asian Pop Culture and empowering <br> Asian minoroties and local businesses.</p>
     </div>
     <button>Join Our Next Event</button>
@@ -35,17 +38,22 @@
             gap: 1em;
             background-color: transparent;
             z-index: 3;
-
-            h1 {
+            
+            span {
                 background-color: transparent;
-                font-weight: 500;
                 h1 {
-                    background-color: #f38c51;
-                    width: fit-content;
-                    padding: 0 0.05em;
-                    border-radius: 0.1em;
+                    background-color: transparent;
+                    font-weight: 500;
+                    
+                    &:last-of-type {
+                        background-color: #f38c51;
+                        width: fit-content;
+                        padding: 0 0.05em;
+                        border-radius: 0.1em;
+                    }
                 }
             }
+
             p {
                 background-color: transparent;
             }
