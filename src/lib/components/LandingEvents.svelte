@@ -83,17 +83,16 @@
             div {
                 display: flex;
                 flex-direction: column;
-                padding: em;
                 background-color: #fdf1ea;
                 border-radius: 1em;
                 flex: 0%;
                 padding: 1em;
-                min-width: 400px;
-
+                min-width: 600px;
 
                 div {
                     gap: 1em;
                     height: fit-content;
+                    min-width: 200px;
 
                     svg {
                         height: 2em;
@@ -117,14 +116,14 @@
         }
     }
 
-    @media (width < 800px) {
+    @media (width < 600px) {
         section {
             padding: 2em;
 
             span {
                 div {
-                    min-width: 200px;
                     padding: 1em;
+                    min-width: 200px;
                 }
             }
         }
