@@ -78,16 +78,17 @@
             flex-wrap: wrap;
             gap: 2em;
             width: 100%;
-            min-width: 200px;
 
             
             div {
                 display: flex;
                 flex-direction: column;
-                padding: 2em;
+                padding: em;
                 background-color: #fdf1ea;
                 border-radius: 1em;
                 flex: 0%;
+                padding: 1em;
+                min-width: 400px;
 
 
                 div {
@@ -116,12 +117,13 @@
         }
     }
 
-    @media (width < 1200px) {
+    @media (width < 800px) {
         section {
             padding: 2em;
 
             span {
                 div {
+                    min-width: 200px;
                     padding: 1em;
                 }
             }
