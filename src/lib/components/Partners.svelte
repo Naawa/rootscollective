@@ -43,7 +43,7 @@
     <h3>Our Partners</h3>
     <span>
         {#each partners as partner}
-           <a href="{partner.href}"><img src="{partner.logo}" alt="Partner icon."></a> 
+           <a class="hidden" href="{partner.href}"><img src="{partner.logo}" alt="Partner icon."></a> 
         {/each}
     </span>
 </section>

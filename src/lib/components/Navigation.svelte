@@ -1,6 +1,6 @@
 <nav>
-    <a href="/"><img src="/assets/Logo.png" alt="Logo"></a>
-    <a href="/about">About Us</a>
+    <a class="hidden" href="/"><img src="/assets/Logo.png" alt="Logo"></a>
+    <a class="hidden" href="/about">About Us</a>
 </nav>
 
 <style lang="scss">

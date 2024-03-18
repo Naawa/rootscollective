@@ -1,13 +1,13 @@
 <section>
     <div>
-        <img src="/assets/LandingAbout.png" alt="">
+        <img class="hidden" src="/assets/LandingAbout.png" alt="">
     </div>
     <div>
         <span>
-            <h3>About Us</h3>
-            <p>Roots Collective is a non-profit events organization with a mission to spark new connections and interests through celebrating Asian pop culture and empowering Asian minorities in North America.</p>
+            <h3 class="hidden">About Us</h3>
+            <p class="hidden">Roots Collective is a non-profit events organization with a mission to spark new connections and interests through celebrating Asian pop culture and empowering Asian minorities in North America.</p>
         </span>
-        <a href="/about">Learn More About Us</a>
+        <a class="hidden" href="/about">Learn More About Us</a>
     </div>
 </section>
 

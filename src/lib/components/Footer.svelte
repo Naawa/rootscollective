@@ -1,6 +1,6 @@
 <section>
 	<div>
-		<svg width="46" height="40" viewBox="0 0 46 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<svg class="hidden" width="46" height="40" viewBox="0 0 46 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path
 				fill-rule="evenodd"
 				clip-rule="evenodd"
@@ -28,10 +28,10 @@
 				fill="#F1742D"
 			/>
 		</svg>
-		<p>Roots Collective, 2024</p>
+		<p class="hidden">Roots Collective, 2024</p>
 	</div>
 	<div>
-		<a href="https://www.instagram.com/rootscollectiveyvr/" target="_blank" rel="noopener noreferrer">
+		<a class="hidden" href="https://www.instagram.com/rootscollectiveyvr/" target="_blank" rel="noopener noreferrer">
 			<svg
 				width="20"
 				height="19"
@@ -45,7 +45,7 @@
 				/>
 			</svg></a
 		>
-		<a href="https://ca.linkedin.com/company/rootscollective" target="_blank" rel="noopener noreferrer">
+		<a class="hidden" href="https://ca.linkedin.com/company/rootscollective" target="_blank" rel="noopener noreferrer">
 			<svg
 				width="18"
 				height="18"
@@ -61,7 +61,7 @@
 				/>
 			</svg></a
 		>
-		<a href="https://www.instagram.com/rootscollectiveyvr/">
+		<a href="https://www.instagram.com/rootscollectiveyvr/" class="hidden">
 			<svg
 				width="21"
 				height="15"
