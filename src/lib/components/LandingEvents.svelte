@@ -67,6 +67,10 @@
         align-items: center;
         gap: 2em;
         padding: 4em 2em; 
+        
+        h3 {
+            text-align: center;
+        }
 
         span {
             display: flex;
@@ -81,7 +85,7 @@
                 padding: 2em;
                 background-color: #fdf1ea;
                 border-radius: 1em;
-                min-width: 20em;
+                min-width: 200px;
                 flex: 0%;
 
 
@@ -106,6 +110,18 @@
 
                 ul {
                     padding: 0 2em;
+                }
+            }
+        }
+    }
+
+    @media (width < 1200px) {
+        section {
+            padding: 2em;
+
+            span {
+                div {
+                    padding: 1em;
                 }
             }
         }
