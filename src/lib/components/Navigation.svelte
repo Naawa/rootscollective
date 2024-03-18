@@ -25,7 +25,7 @@
 
             &:last-of-type {
                 font-family: "Montserrat";
-                font-weight: 600;
+                font-weight: 500;
             }
         }
     }

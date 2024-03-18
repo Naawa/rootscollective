@@ -7,7 +7,7 @@
             <h3>About Us</h3>
             <p>Roots Collective is a non-profit events organization with a mission to spark new connections and interests through celebrating Asian pop culture and empowering Asian minorities in North America.</p>
         </span>
-        <a href="/about">Learn more about us</a>
+        <a href="/about">Learn More About Us</a>
     </div>
 </section>
 

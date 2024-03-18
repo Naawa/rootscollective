@@ -84,6 +84,10 @@ button {
     justify-content: center;
     align-items: center;
     font-family: "Montserrat";
+
+    &:hover {
+        background-color: #ff7e34;
+    }
 }
 
 input, select, option {
