@@ -11,7 +11,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 4em;
+        padding: 8em;
         gap: 2em;
         background-color: #fdf1ea;
 
@@ -20,6 +20,7 @@
             flex-direction: column;
             gap: 1em;
             background-color: transparent;
+            max-width: 80vw;
 
             h3 {
                 font-weight: 500;
@@ -27,4 +28,10 @@
             }
         }
     }
+
+    @media (width < 800px) {
+		section {
+			padding: 2em;
+		}
+	}
 </style>

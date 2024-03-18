@@ -87,7 +87,7 @@
                 border-radius: 1em;
                 flex: 0%;
                 padding: 1em;
-                min-width: 600px;
+                min-width: 300px;
 
                 div {
                     gap: 1em;

@@ -87,6 +87,7 @@
 		align-items: center;
 		height: 20em;
 		background-color: #f8c8c8;
+		padding: 8em;
 
 		div {
 			display: flex;
@@ -111,6 +112,12 @@
 					background-color: transparent;
 				}
 			}
+		}
+	}
+
+	@media (width < 800px) {
+		section {
+			padding: 2em;
 		}
 	}
 </style>

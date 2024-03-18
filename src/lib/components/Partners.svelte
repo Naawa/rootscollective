@@ -50,12 +50,13 @@
 
 <style lang="scss">
     section {
-        padding: 2em;
+        padding: 2em 0 4em;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 2em;
+        min-height: 25em;
 
         h3 {
             text-align: center;
@@ -68,6 +69,7 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
+            gap: 3em;
 
             a {
                 img {
@@ -76,4 +78,9 @@
             }
         }
     }
+    @media (width < 800px) {
+		section {
+			padding: 2em;
+		}
+	}
 </style>
